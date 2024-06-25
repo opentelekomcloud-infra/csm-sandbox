@@ -5,9 +5,9 @@
       jobs:
         - otc-tox-pep8
         - otc-tox-linters
-        - tox-molecule-210
+        - tox-molecule
     gate:
       jobs:
         - otc-tox-pep8
         - otc-tox-linters
-        - tox-molecule-210
+        - tox-molecule
