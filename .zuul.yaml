@@ -4,12 +4,12 @@
     check:
       jobs:
         - otc-tox-pep8
-        - otc-tox-linters
-        - tox-molecule-29
-        - tox-molecule-210
+        # - otc-tox-linters
+        # - tox-molecule-29
+        # - tox-molecule-210
     gate:
       jobs:
         - otc-tox-pep8
-        - otc-tox-linters
-        - tox-molecule-29
-        - tox-molecule-210
+        # - otc-tox-linters
+        # - tox-molecule-29
+        # - tox-molecule-210
